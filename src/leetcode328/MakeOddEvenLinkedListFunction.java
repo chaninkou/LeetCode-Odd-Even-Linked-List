@@ -1,4 +1,4 @@
-package oddeven;
+package leetcode328;
 
 public class MakeOddEvenLinkedListFunction {
 	public ListNode oddEvenList(ListNode head) {
@@ -17,7 +17,7 @@ public class MakeOddEvenLinkedListFunction {
         
         // Use the even pointer to go through the whole linked list
         while(even != null && even.next != null){
-        	// Cool pattern to do
+        	// Perfect pathern to do for odd then even
             odd.next = even.next;
             odd = odd.next;
             

@@ -1,4 +1,4 @@
-package oddeven;
+package leetcode328;
 
 public class ListNode {
 	int val;
